@@ -2,3 +2,12 @@
     width: 100px;
     height: 50px;
 }
+
+.fundo-illidan{
+    background-image: url("/home/andre/allprojects/serverWow/imagens/illidan.jpg");
+    /* width: 1920px */
+}
+
+h1{
+    text-align: center;
+}
