@@ -4,10 +4,26 @@
 }
 
 .fundo-illidan{
-    background-image: url("/home/andre/allprojects/serverWow/imagens/illidan.jpg");
+    /* background-image: url("/home/andre/allprojects/serverWow/imagens/illidan.jpg"); */
+    /* background: linear-gradient(to up, #336600 100%); */
+    background: linear-gradient(to top, rgba(255,255,255,0),rgba(255,255,255,0), #003300), url("/home/andre/allprojects/serverWow/imagens/illidan.jpg");
+    background-size: cover;
     /* width: 1920px */
 }
 
+.fit-image{
+    /* width: 1920px;
+    height: 1080px; */
+}
+.container-andre{
+    color:white;
+    background: linear-gradient(to bottom, #336600 0%, #003300 100%) !important;
+    border: solid black;
+}
 h1{
     text-align: center;
+}
+
+.cor-visivel{
+    color:white;
 }
